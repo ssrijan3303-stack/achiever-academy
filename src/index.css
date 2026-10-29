@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
+
+/* Watermark protection overlay */
+.watermark-pattern {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(15, 23, 42, 0.035),
+    rgba(15, 23, 42, 0.035) 150px,
+    transparent 150px,
+    transparent 300px
+  );
+}
+
+.dark .watermark-pattern {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0.04) 150px,
+    transparent 150px,
+    transparent 300px
+  );
+}

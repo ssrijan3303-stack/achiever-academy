@@ -1,0 +1,6 @@
+{
+  "name": "Achiever Academy - National Online Coaching Platform",
+  "description": "Comprehensive national-level online coaching platform featuring multi-role portals for Students, Teachers, and Admins, live classroom streaming, syllabus management, digital certificates, and automated WhatsApp notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
